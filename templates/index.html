@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" href="{% static 'css/index.css'   %}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- <a href="/register">Register</a>
+  <a href="/view">Show All Data</a> -->
+  <div class="outter_tag">
+    <div class="div_tag">
+      <input type="submit" style="width: 200px; 
+            font-size: large; 
+            margin-top: 125px; 
+            border-radius: 15px;  
+            background-color: #005194; 
+               box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" name="register"
+        onclick="location.href = '/register';" class="btn btn-primary" class=" cancle" value="Add User">
+      <input type="submit" style="width: 200px;
+         font-size: large;
+          margin-top: 30px;
+           border-radius: 15px; 
+           background-color: #005194;  
+             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" name="register"
+        onclick="location.href = '/view';" class="btn btn-primary" class=" cancle" value="Show All User">
+    </div>
+
+  </div>
+
+</body>
+
+</html>

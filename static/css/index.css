@@ -1,0 +1,22 @@
+
+.outter_tag{
+    display: flex;
+    width: 100%;
+    height: 760px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color:cadetblue;
+}
+.div_tag{
+    height: 350px;
+    width: 350px;
+    margin-top: 25px;
+    background-color:#0ccfbe;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
